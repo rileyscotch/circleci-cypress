@@ -4,7 +4,7 @@
 
 For this assessment:
 
-1. Write a test to _visit_ the url `https://gschool-e2e.github.io/`
+1. Write a test to _visit_ the url `http://www.danlevy.net/e2e-assessment/`
 1. Wait for the `<header>` element.
 1. Ensure title equals 'E2E Intro'
 1. _'Click'_ on the 'Search' navbar link/button.
@@ -16,8 +16,8 @@ For this assessment:
 
 ```sh
 # git clone this repo
-git clone ...
-cd drills/version-2
+git clone https://github.com/justsml/e2e-assessment.git
+cd e2e-assessment/drills/version-2
 npm install
 
 # setup - open the browser gui
