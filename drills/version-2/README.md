@@ -1,37 +1,19 @@
-# E2E Testing
+## Galvanize Safety - Navigation
 
-## Overview
+In this drill, you're going to test that the navigation on a [Hacker News Clone](https://e2e-hackernews.herokuapp.com/) works correctly. Keep in mind the site has animations and adds and removes things from the DOM!
 
-For this assessment:
+## Steps
 
-1. Write a test to _visit_ the url `http://www.danlevy.net/e2e-assessment/`
-1. Wait for the `<header>` element.
-1. Ensure title equals 'E2E Intro'
-1. _'Click'_ on the 'Search' navbar link/button.
-1. Verify the URL is correct.
-1. Fill in the text box with your github username.
-1. Wait for your avatar image to load before concluding the test.
+You should write an end-to-end test to ensure the following features work:
 
-## Setup
-
-```sh
-# git clone this repo
-git clone https://github.com/justsml/e2e-assessment.git
-cd e2e-assessment/drills/version-2
-npm install
-
-# setup - open the browser gui
-./node_modules/.bin/cypress open
-
-# vimmers:
-vim tests_spec.js
-# or vs coders:
-code tests_spec.js
-# or atom ppl:
-atom tests_spec.js
-```
-
-> Resources:
-> * [API](https://docs.cypress.io/api/introduction/api.html)
-> * [Tutorials](https://docs.cypress.io/examples/examples/tutorials.html)
-> * [Recipes](https://docs.cypress.io/examples/examples/recipes.html)
+* Make sure the title has "Vue HN 2.0" in it
+* Make sure 20 news items show up on the page
+* Go to the "New" area via the link
+* Make sure you're on the correct page
+* Make sure 20 news items show up on the page
+* Go to the next 20 results with the "more" link
+* Make sure you're on the correct page
+* Make sure 20 news items show up on the page
+* Go to the jobs page via the link
+* Make sure you're on the correct page
+* Make sure 20 news items show up on the page
