@@ -1,13 +1,18 @@
-# End-to-end Testing Assessment
+## Galvanize Safety - Content
 
-* Describe end-to-end testing?
+In this drill, you're going to test that the appropriate content shows up on the [PHP Travels](http://phptravels.com/demo/) page.
 
-* Defend what it is best used for?
+## Steps
 
-* Explain what areas of software it doesn't test so well?
-
-* Explain how/if it relates to unit testing?
-
-* Detail & enumerate 3 end-to-end tools/libraries:
-
-
+* The page should have a logo that displays the image at `http://phptravels.com/assets/img/logo-white.png`
+* The page should have a secondary header that says "Application Test Drive"
+* The page should have navigation links for:
+    * Demo
+    * Order
+    * Product
+    * Hosting
+    * Services
+    * Company
+    * Login
+* The FAQ should have 6 items
+* When you click on the button that says `http://www.phptravels.net`, you should go to that URL
