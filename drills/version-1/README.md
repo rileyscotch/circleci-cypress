@@ -16,3 +16,7 @@ In this drill, you're going to test that the appropriate content shows up on the
     * Technology
 1. The FAQ should have 6 items
 1. When you click on the "Order" navigation link, you should go to `http://www.phptravels.com/orders/`
+
+## Additional Instructions
+
+1. Upload a screenshot of your passing tests when submitting.
