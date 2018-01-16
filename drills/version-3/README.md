@@ -12,3 +12,7 @@ In this drill, you're going to test that the form on a on a local app works corr
 1. Click the submit button
 1. Make sure the form empties
 1. Make the first job listing has "Title", "Pay", and "Description" in the appropriate places, and also includes the text "0 dinos are interested in this job"
+
+## Additional Instructions
+
+1. Upload a screenshot of your passing tests when submitting.
