@@ -17,3 +17,7 @@ You should write an end-to-end test to ensure the following features work:
 1. Go to the jobs page via the link
 1. Make sure you're on the correct page
 1. Make sure 20 news items show up on the page
+
+## Additional Instructions
+
+1. Upload a screenshot of your passing tests when submitting.
