@@ -6,7 +6,7 @@
 ## Tests
 
 * [ ] Tests pass
-* [ ] Asserts that the logo is `http://phptravels.com/assets/img/logo-white.png`
+* [ ] Asserts that the logo is `./images/phptravels-logo.png`
 * [ ] Asserts that the header says "Application Test Drive."
 Asserts these navigation links exist:
     * [ ] Demo
