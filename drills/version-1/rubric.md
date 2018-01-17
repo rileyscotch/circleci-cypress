@@ -18,5 +18,5 @@ Asserts the The Product link has these items:
     * [ ] Technology
 * [ ] Asserts the FAQ has 6 items
 * [ ] Clicks the order link
-* [ ] Asserts URL is `http://www.phptravels.com/orders/`
+* [ ] Asserts URL is `/`
 
