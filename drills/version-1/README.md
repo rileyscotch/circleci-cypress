@@ -15,7 +15,7 @@ In this drill, you're going to test that a local app works correctly in the your
    * Features
    * Technology
 1. The FAQ should have 6 items
-1. When you click on the "Order" navigation link, you should go to `/`
+1. When you click on the "Order" navigation link, you should go to `/order`
 
 ## Additional Instructions
 
