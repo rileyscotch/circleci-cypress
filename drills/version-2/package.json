@@ -1,0 +1,15 @@
+{
+  "name": "version-2",
+  "version": "1.0.0",
+  "description": "In this drill, you're going to test that the navigation on a [Hacker News Clone](https://e2e-hackernews.herokuapp.com/) works correctly. Keep in mind the site has animations and adds and removes things from the DOM!",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^2.1.0"
+  }
+}
