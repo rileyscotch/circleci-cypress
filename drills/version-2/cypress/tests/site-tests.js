@@ -1,4 +1,4 @@
-describ;e('Tests for HackerNews web site', () => {
+describe('Tests for HackerNews web site', () => {
   it('Displays properly and has working Jobs and more links', () => {
     cy.visit('/');
   })
@@ -8,8 +8,8 @@ describ;e('Tests for HackerNews web site', () => {
   it('Has more than 1 news item on the page', () => {
     cy.get('ul li').should('have.length.above', '1');
   })
-  it('Navigates to the "New" area via the link and makes sure you are on the correct page with more than 1 item, ', () => {
-    cy.get('.inner a').contains('New').should('have.attr', 'href', '/new');
+  it('Navigates to the "New" area via the link and makes sure you are on the correct page with more than 1 item', () => {
+    cy.get('.inner a').contains('New').click().should('have.attr', 'href', '/new');
     cy.url().should('eq', 'https://e2e-hackernews.herokuapp.com/top');
     cy.get('.inner a').should('have.length.above', '1');
   })
