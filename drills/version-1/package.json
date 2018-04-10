@@ -4,8 +4,8 @@
   "description": "In this drill, you're going to test that a local app works correctly in the your browser. The app to test is in the app folder, and just needs to be run locally.",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run",
-    "cypress": "cypress run"
+    "test": "npx cypress run"
+    
   },
   "keywords": [],
   "author": "",

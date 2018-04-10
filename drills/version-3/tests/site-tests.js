@@ -1,16 +1,18 @@
-describe("Tests for Galvanize Dino", () => {
-  it('Passes all assertions', () => {
-    cy.visit('/');
-    cy.get('#job-listings li').should('have.length.above', '3');
-    cy.get('.job-form input:first').should('have.text', '');
-    cy.get('.job-form input:first').type('Job Title');
-    cy.get('.job-form input').eq(1).type('Pay');
-    cy.get('.job-form textarea').type('Description');
-    cy.get('.job-form input').eq(2).click();
-    cy.get('.job-form input').should('have.text', '');
-    cy.get('#job-listings li').should('contain', 'Title');
-    cy.get('#job-listings li small:first').should('have.text', 'Pay');
-    cy.get('#job-listings li').should('contain', 'Description');
-    cy.get('#job-listings li').should('contain', '0 dinos are interested in this job');
+describe('Dino Job Site Run Locally', () => {
+  it('Meet E2E Testing Requirements for Interactive App', () => {
+    cy.visit('/')
+    cy.get('#job-listings li').should('have.length.above', 3)
+    cy.get('.job-form input').eq(0).should('be.empty').type('Job Title')
+    cy.get('.job-form input').eq(1).should('be.empty').type('Pay')
+    cy.get('.job-form textarea').should('be.empty').type('Description')
+    cy.get('.job-form input').eq(2).click()
+    cy.get('.job-form input').eq(0).should('be.empty')
+    cy.get('.job-form input').eq(1).should('be.empty')
+    cy.get('.job-form textarea').should('be.empty')
+    cy.get('#job-listings li').eq(0).as('newPosting')
+    cy.get('@newPosting').find('h4').should('have.text', 'Job Title')
+    cy.get('@newPosting').find('small').eq(0).should('have.text', 'Pay')
+    cy.get('@newPosting').find('p').should('have.text', 'Description')
+    cy.get('@newPosting').find('small').eq(1).should('have.text', '0 dinos are interested in this job')
   })
 })
