@@ -1,7 +1,7 @@
 {
   "name": "version-1",
   "version": "1.0.0",
-  "description": "In this drill, you're going to test that a local app works correctly in the your browser. The app to test is in the app folder, and just needs to be run locally.",
+  "description": "Using Circleci to Run End to End Tests",
   "main": "index.js",
   "scripts": {
     "test": "npx cypress run"
