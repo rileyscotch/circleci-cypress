@@ -1,5 +1,5 @@
 {
-  "name": "version-1",
+  "name": "Version-1",
   "version": "1.0.0",
   "description": "Using Circleci to Run End to End Tests",
   "main": "index.js",

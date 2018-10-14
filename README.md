@@ -1,22 +1,21 @@
-## Galvanize Safety - Content
+## Run a Cypress Test Automatically With CircleCi
 
-In this drill, you're going to test that a local app works correctly in the your browser. The app to test is in the app folder, and just needs to be run locally.
+## Learning Objectives
+-Understand Test Driven Development
+-Set Up CircleCi account
+-Connect CircleCi to a repo using Cypress
 
 ## Steps
-
-1. The page should have a logo that displays the image at `./images/phptravels-logo.png`
-<!-- 1. The page should have a secondary header that says "Application Test Drive."
-1. The page should have navigation links for:
-   * Demo
-   * Order
-   * Product
-1. The Product link should have a sub-menu with the following items:
-   * Documentation
-   * Features
-   * Technology -->
-<!-- 1. The FAQ should have 6 items -->
-1. When you click on the "Order" navigation link, you should go to `/order`
+1. Sign up for CircleCi with your GitHub account
+2. Connect Desired Repo
+3. Create .circleci directory
+4. Create yaml file in .cirecleci directory
+5. Configure files
+    -Copy and paste CircleCi example yaml
+    -Change docker image type to cypress/base:10
+    -Change working directory (pwd if needed)
+    -Yarn Install or NPM Install
+    -Add Node Server Steps
 
 ## Additional Instructions
 
-1. Upload a screenshot of your passing tests when submitting.

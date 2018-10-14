@@ -7,8 +7,9 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: cypress/base:10
-        # circleci/node:7.10
+      - image: 
+      # cypress/base:10
+        circleci/node:7.10
       
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
@@ -28,6 +29,7 @@ jobs:
           - v1-dependencies-
 
       - run: npm install
+             npm test
 
       - save_cache:
           paths:
@@ -35,5 +37,5 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
         
       # run tests
-      - run: npx cypress run
+      # - run: npx cypress run
 
